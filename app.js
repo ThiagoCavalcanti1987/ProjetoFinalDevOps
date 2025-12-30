@@ -5,7 +5,8 @@ const port = 80; // porta que a aplicação vai escutar
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader("Content-Type", "text/plain; charset=utf-8");
-  res.end("Hello World! Aplicação Node.js rodando na porta 80 🚀");
+  res.end("CI/CD funcionando com SSH liberado 🚀");
+  //res.end("Hello World! Aplicação Node.js rodando na porta 80 🚀");
 });
 
 server.listen(port, () => {
